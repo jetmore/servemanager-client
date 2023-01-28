@@ -66,4 +66,9 @@ public class ApiHandle_UnitTest {
     assertThat(client, equalTo(null));
   }
 
+  @Test
+  public void thisIsGoingToFail() throws Exception {
+    assertThat(1, equalTo(2));
+  }
+
 }
